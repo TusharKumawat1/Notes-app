@@ -155,7 +155,7 @@ const Notes = () => {
            {notes.length===0 ? <h2 className="text-center">No Notes To Display</h2>: <h2 className="text-center">Your Notes</h2>}
    
         <div className="row ">
-          {notes.map((notes) => {
+          {notes &&notes?.map((notes) => {
             return (
               <Noteitem
                 key={notes._id}

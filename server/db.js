@@ -1,5 +1,5 @@
 const mongoose =require('mongoose');
-const mongoUri='mongodb://127.0.0.1:27017/userdatabase';
+const mongoUri='mongodb+srv://tusharkumawat9694:tushar%40@cluster0.bmp19bn.mongodb.net/';
 const connectToMongo=()=>{
     mongoose.connect(mongoUri ).then (()=>console.log('successfully connected'))
     .catch((err)=>console.log("unable to connect "+err)) ;
