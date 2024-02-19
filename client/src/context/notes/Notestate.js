@@ -7,7 +7,7 @@ const Notestate = (props) => {
     const [alert, setalert] = useState(false)
     const [bg, setbg] = useState("")
     const [msg, setmsg] = useState("")
-  const host = "http://localhost:5000"
+  const host = "https://notesapp-gwf1.onrender.com"
   const notesInitial = []
   const [notes, setnotes] = useState(notesInitial);
   //get note
